@@ -1,0 +1,33 @@
+{
+  "name": "GlowUp_back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -L"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Magali18/GlowUp_back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Magali18/GlowUp_back/issues"
+  },
+  "homepage": "https://github.com/Magali18/GlowUp_back#readme",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.3",
+    "pg": "^8.11.3",
+    "sequelize": "^6.35.2"
+  }
+}
