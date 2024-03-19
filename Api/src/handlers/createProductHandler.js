@@ -24,7 +24,7 @@ const createProductHandler = async (req, res) => {
   
     } catch (error) {
       console.log(error)
-      res.status(400).json({ error: error.message });
+      res.status(402).json({ error: error.message });
     }
   };
   
