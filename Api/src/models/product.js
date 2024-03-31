@@ -15,7 +15,7 @@ module.exports = (sequelize) => {
         allowNull: false
        
       },
-      description: {
+      cover_letter: {
         type: DataTypes.TEXT,
         allowNull: false
       },     
@@ -24,15 +24,12 @@ module.exports = (sequelize) => {
         allowNull: false,
       
       },
-      stock: {
-        type: DataTypes.BOOLEAN,
-        allowNull: false,
-      },
-      background_image:{
+      date:{
         type: DataTypes.TEXT,
         allowNull: false,
 
       },
+
      
     },
     

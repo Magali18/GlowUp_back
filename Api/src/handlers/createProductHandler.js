@@ -4,20 +4,19 @@ const createProductHandler = async (req, res) => {
     const {
       id,
       name,
-      description,
+      cover_letter,
       price,
-      stock,
-      background_image
+      date
+    
     } = req.body;
   
     try {
       const response = await createProductController(
         id,
        name,
-       description,
+       cover_letter,
        price,
-       stock,
-       background_image
+       date
         );
   
       res.status(201).json(response);
