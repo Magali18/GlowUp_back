@@ -5,7 +5,8 @@ const createProductController = async (
   name,
   cover_letter,
   price,
-  date
+  date,
+  description
 ) => {
   try {
     const createdProduct = await Product.create({
@@ -13,7 +14,8 @@ const createProductController = async (
       name,
       cover_letter,
       price,
-      date
+      date, 
+      description
     });
 
     return createdProduct;

@@ -6,7 +6,8 @@ const createProductHandler = async (req, res) => {
       name,
       cover_letter,
       price,
-      date
+      date,
+      description
     
     } = req.body;
   
@@ -16,7 +17,8 @@ const createProductHandler = async (req, res) => {
        name,
        cover_letter,
        price,
-       date
+       date,
+       description
         );
   
       res.status(201).json(response);
